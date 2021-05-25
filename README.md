@@ -1,5 +1,5 @@
-# Go-Consumer-NSQ
-Simple application on how to implement consumer with NSQ.
+# Go-Writer
+Simple application on how to write file by or not using buffer / compress.
 
 ## Installing / Getting started
 - docker-compose
@@ -38,17 +38,7 @@ the step for building is already included on docker-compose file
 - TBD
 
 ## Tests
-- To publish message to topic, use this request via postman / curl
-```
-curl -X POST \
-  'http://localhost:4151/pub?topic=topic' \
-  -H 'cache-control: no-cache' \
-  -H 'content-type: application/json' \
-  -d '{
-	 "Name": "NOBA",
-	 "Address": "MAIDU"
-}'
-```
+- TBD
 
 ## Style guide
 - TBD
